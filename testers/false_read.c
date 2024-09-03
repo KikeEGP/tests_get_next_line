@@ -9,8 +9,8 @@ void	single_read(char *lines)
 	while (lines != NULL)
 	{
 		lines = get_next_line(fd);
-		if (lines)
-			printf("%s", lines);
+		//if (lines)
+		printf("%s", lines);
 		free(lines);
 	}
 	close(fd);

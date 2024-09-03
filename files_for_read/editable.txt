@@ -1,5 +1,6 @@
 Hello there!
-Here is a test for read() function. 
+Here iTHIS HAS BEEN WRITE LATER
+on. 
 I want to know how it works.
 How are you? Are you afraid from blackhole, Get Next Line or something?
 

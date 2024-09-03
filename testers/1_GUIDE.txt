@@ -1,0 +1,32 @@
+IN THIS GUIDE, I AM GOING TO ENUMERATE MY TESTS AND WHAT THEY CHECK
+
+---READ A NORMAL FILE---
+single_read.c
+read_txt.c
+read_cervantes.c
+read_charles.c
+read_excel.c
+read_galdos.c
+long_line_with_nl.c
+just_nl.c
+read_one_and_n.c
+read_little.c
+
+---EXPECTED ERROR OR UNDEFINED BEHAVIOUR---
+false_read.c
+read_edit_read.c
+read_jpg.c
+read_pdf_images.c
+read_single_pdf.c
+
+---CHECK NO \n---
+line_long_no_nl.c
+multiple_no_nl.c
+one_byte.c
+
+---STDIN---
+test_stdin.c
+
+---BONUS (at bonus directory, which is prepared for all test above too)---
+bonus_first_test.c
+bonus_too_litle.c

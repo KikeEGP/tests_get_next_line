@@ -7,7 +7,7 @@ void	read_edit(int fd, char *lines)
 	{
 		lines = get_next_line(fd);
 		if (lines)
-			printf("%s\n", lines);
+			printf("%s", lines);
 		free(lines);
 	}
 }

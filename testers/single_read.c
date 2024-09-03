@@ -4,13 +4,17 @@
 void	single_read(char *lines)
 {
 	int	fd;
+	int	i;
 
 	fd = open("../files_for_read/trying_read.txt", O_RDONLY);
-	while (lines != NULL)
+//	while (lines != NULL)
+	i = 1;
+	while (i <= 90)
 	{
 		lines = get_next_line(fd);
-		if (lines)
+		//if (lines)
 			printf("%s", lines);
+		i++;
 		free(lines);
 	}
 	close(fd);

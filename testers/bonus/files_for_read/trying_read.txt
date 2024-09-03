@@ -1,0 +1,7 @@
+Hello there!
+Here is a test for read() function. 
+I want to know how it works.
+How are you? Are you afraid from blackhole, Get Next Line or something?
+
+Have you reached this line? Congratoulations!
+This is the final line.

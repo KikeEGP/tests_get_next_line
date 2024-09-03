@@ -8,9 +8,9 @@ int	main(void)
 	while (lines != NULL)
 	{
 		lines = get_next_line(1);
-		if (lines)
-			printf("%s", lines);
+		//if (lines)
+		printf("%s", lines);
 		free(lines);
-		lines = NULL;
+		//lines = NULL;
 	}
 }
